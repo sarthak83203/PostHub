@@ -1,0 +1,57 @@
+h1{
+    color:red;
+    text-align: center;
+}
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+   
+}
+.user{
+    font-style: italic;
+    margin-left: 20px;
+}
+.content{
+    margin-left: 25px;
+}
+.post{
+    background-color: rgba(240, 255, 255, 0.8); 
+     border-radius: 30px;
+     margin-left: 15px;
+    
+}
+.img{
+    background-image: url("/image2.jpeg");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    align-items: center;     
+    padding: 50px;
+    
+   
+}
+.a{
+    margin-left: 25px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+
+}
+.new{
+    background-color: white;
+    color: aqua;
+
+
+}
+.ide{
+    margin-left: 20px;
+}
+.ui{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
