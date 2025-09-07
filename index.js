@@ -48,7 +48,7 @@ arg.get("/posts/:id",(req,res)=>{
     let post=posts.find((p)=>p.id===id);
     res.render("show.ejs",{post});
 })
-
+//from form.ejs it will come
 arg.post("/posts",(req,res)=>{ //Now whatever the content came we have to add this to post array
     let {username,content}=req.body;
     let id = uuidv4();
